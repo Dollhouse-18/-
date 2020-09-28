@@ -1,0 +1,26 @@
+/* 设置全局样式 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* 设置banner区域样式 */
+.banner {
+    width: 1200px;
+    height: 400px;
+    margin: 30px auto;   /* 居中对齐，上下外边距30px */
+}
+
+/* 设置图片样式，默认不显示 */
+.pic {
+    display: none;  /* 隐藏起来 */
+}
+
+.picactive {
+    display: block;  /* 显示出来 */
+}
+
